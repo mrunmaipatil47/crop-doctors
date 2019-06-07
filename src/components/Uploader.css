@@ -1,0 +1,25 @@
+.dropzone {
+    margin:1rem auto;
+    width : 80%;
+    height : 30vh;
+    
+    border : 1px dashed #0000003c;
+    
+  }
+
+  .dropzone p, em{
+    font-size: 0.8rem;
+    color: #0000003c;
+  }
+
+.button{
+      display: block;
+      margin: 1rem auto;
+      background-color: #4b830d;
+      color: #ffffff;
+  }
+
+.button:hover , .button:focus{
+    background-color: #7cb342;
+    color: #ffffff;
+}
