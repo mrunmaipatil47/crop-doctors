@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/crop-doctors/static/css/main.8204827e.chunk.css",
+    "main.js": "/crop-doctors/static/js/main.06d93b0e.chunk.js",
+    "main.js.map": "/crop-doctors/static/js/main.06d93b0e.chunk.js.map",
+    "runtime~main.js": "/crop-doctors/static/js/runtime~main.0353b255.js",
+    "runtime~main.js.map": "/crop-doctors/static/js/runtime~main.0353b255.js.map",
+    "static/js/2.09d56e22.chunk.js": "/crop-doctors/static/js/2.09d56e22.chunk.js",
+    "static/js/2.09d56e22.chunk.js.map": "/crop-doctors/static/js/2.09d56e22.chunk.js.map",
+    "index.html": "/crop-doctors/index.html",
+    "precache-manifest.9c3e8d566013fff261f590de0b31a72c.js": "/crop-doctors/precache-manifest.9c3e8d566013fff261f590de0b31a72c.js",
+    "service-worker.js": "/crop-doctors/service-worker.js",
+    "static/css/main.8204827e.chunk.css.map": "/crop-doctors/static/css/main.8204827e.chunk.css.map",
+    "static/media/00.jpg": "/crop-doctors/static/media/00.df66a268.jpg",
+    "static/media/01.jpg": "/crop-doctors/static/media/01.e2b9f788.jpg",
+    "static/media/10.jpg": "/crop-doctors/static/media/10.611a5624.jpg",
+    "static/media/11.jpg": "/crop-doctors/static/media/11.b82cb72d.jpg",
+    "static/media/20.jpg": "/crop-doctors/static/media/20.4e77d85e.jpg",
+    "static/media/21.jpg": "/crop-doctors/static/media/21.cdf4ea94.jpg",
+    "static/media/berry-bg.jpg": "/crop-doctors/static/media/berry-bg.0f63204a.jpg",
+    "static/media/berry.jpg": "/crop-doctors/static/media/berry.3f9677ef.jpg",
+    "static/media/citrus-bg.jpg": "/crop-doctors/static/media/citrus-bg.457ab370.jpg",
+    "static/media/citrus.jpg": "/crop-doctors/static/media/citrus.8e5faf7e.jpg",
+    "static/media/cotton-bg.jpg": "/crop-doctors/static/media/cotton-bg.a47eca30.jpg",
+    "static/media/cotton.jpg": "/crop-doctors/static/media/cotton.01a0f7f5.jpg",
+    "static/media/logo.svg": "/crop-doctors/static/media/logo.a1ed3c62.svg"
+  }
+}
