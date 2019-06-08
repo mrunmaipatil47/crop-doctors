@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdd0339cbde82c2d49036f672395b0e1",
+    "revision": "02aff3bc82e519a26957fef1e0d420c2",
     "url": "/crop-doctors/index.html"
   },
   {
-    "revision": "f1da71247c356ab5fce6",
+    "revision": "2f50fab79514e9f3aa82",
     "url": "/crop-doctors/static/css/main.8204827e.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crop-doctors/static/js/2.09d56e22.chunk.js"
   },
   {
-    "revision": "f1da71247c356ab5fce6",
-    "url": "/crop-doctors/static/js/main.06d93b0e.chunk.js"
+    "revision": "2f50fab79514e9f3aa82",
+    "url": "/crop-doctors/static/js/main.c032c650.chunk.js"
   },
   {
     "revision": "506fdf76e066db720afd",
