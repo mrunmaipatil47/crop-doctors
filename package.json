@@ -1,6 +1,7 @@
 {
   "name": "crop-doctors",
   "version": "0.1.0",
+  "homepage": "https://mrunmaipatil47.github.io/crop-doctors",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
@@ -8,13 +9,17 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "@reach/router": "^1.2.1",
     "bower": "^1.8.8",
+    "gh-pages": "^2.0.1",
     "muicss": "^0.9.41",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-dropzone": "^10.1.5",
+    "react-md-spinner": "^0.4.0",
     "react-scripts": "3.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

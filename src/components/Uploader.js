@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from '@reach/router'
+import { Link } from '@reach/router';
 import { Button } from 'muicss/react';
 import { useDropzone } from 'react-dropzone';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faChartBar, faCloudUploadAlt } from '@fortawesome/free-solid-svg-icons'
 import './Uploader.css';
+
 
 const thumb = {
 	display: 'inline-flex',
@@ -30,16 +33,19 @@ const img = {
 
 export function Uploader(props) {
 	const [files, setFiles] = useState([]);
+	const [filename, setFilename] =useState('')
 	const { getRootProps, getInputProps } = useDropzone({
 		accept: 'image/*',
 		onClick: true,
 		noKeyboard: true,
 		onDrop: acceptedFiles => {
 			setFiles(
-				acceptedFiles.map(file =>
-					Object.assign(file, {
+				acceptedFiles.map(file => {
+					setFilename(file.name)
+					return Object.assign(file, {
 						preview: URL.createObjectURL(file),
 					})
+				}
 				)
 			);
 		},
@@ -55,7 +61,6 @@ export function Uploader(props) {
 
 	useEffect(
 		() => () => {
-			// Make sure to revoke the data uris to avoid memory leaks
 			files.forEach(file => URL.revokeObjectURL(file.preview));
 		},
 		[files]
@@ -67,15 +72,15 @@ export function Uploader(props) {
 				<input {...getInputProps()} />
 				<p>Drag 'n' drop some files here, or click to select files</p>
 				<em>(Only *.jpeg and *.png images will be accepted)</em>
-				<Button className="button">Upload</Button>
+				<Button className="button"><FontAwesomeIcon icon={ faCloudUploadAlt } />{ ` Upload` }</Button>
 			</div>
 			<div>{thumbs}</div>
-            <div>
-                <Link to='/solution'>
-				<Button className="button" type="button">
-					Proceed
-				</Button>
-                </Link>
+			<div>
+				<Link to={ `/solution/${props.id}/${filename}` }>
+					<Button className="button" type="button">
+						<FontAwesomeIcon icon={faChartBar} /> Run Analysis
+					</Button>
+				</Link>
 			</div>
 		</section>
 	);

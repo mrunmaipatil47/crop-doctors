@@ -5,7 +5,7 @@ import { Link } from '@reach/router';
 
 export function CropTab(props) {
 	return (
-		<Link to={`/uploader/${props.type}`}>
+		<Link to={`/uploader/${props.id}/${props.type}`}>
 			<Container fluid={true} className="box cropType-container">
 				<img src={props.icon} alt="" />
 				<div className="column">
